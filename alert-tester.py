@@ -69,4 +69,4 @@ for i in prometheusrules["items"]:
                         exit()
                         
 # We hit the bottom of the list, the alertname does not exist
-print(f"The alert name {alert_name} was not found. Please verify th
+print(f"The alert name {alert_name} was not found. Please verify the alert exists and try again")
